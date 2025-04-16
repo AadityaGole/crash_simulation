@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+__pycache__/
+
+correlation_heatmap.png
+simulation_results.csv
