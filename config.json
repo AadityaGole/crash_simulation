@@ -1,0 +1,73 @@
+{
+    "car": {
+        "human": {
+            "driving_expertise_mean": 0.5,
+            "driving_expertise_std": 0.2,
+            "driving_expertise_min": 0.0,
+            "driving_expertise_max": 1.0,
+    
+            "reaction_time_mean": 0.5,
+            "reaction_time_multiplier": 0.5,
+    
+            "fatigue_mean": 0,
+            "fatigue_std": 0.5,
+            "fatigue_min": 0.0,
+            "fatigue_max": 1.0,
+    
+            "decision_making_mean": 0.5,
+            "decision_making_std": 0.2,
+            "decision_making_min": 0.0,
+            "decision_making_max": 1.0
+        },
+    
+        "autonomous": {
+            "driving_expertise_mean": 0.8,
+            "driving_expertise_std": 0.1,
+            "driving_expertise_min": 0.5,
+            "driving_expertise_max": 0.9,
+    
+            "reaction_time_mean": 0.2,
+    
+            "fatigue": 0,
+    
+            "decision_making_mean": 0.8,
+            "decision_making_std": 0.1,
+            "decision_making_min": 0.5,
+            "decision_making_max": 0.9
+        }
+    
+    }, 
+
+    "environment": {
+        "weather": {
+            "clear": {
+                "visibility": 1.0,
+                "road_condition": 1.0
+            },
+            "rainy": {
+                "visibility": 0.7,
+                "road_condition": 0.8
+            },
+            "foggy": {
+                "visibility": 0.5,
+                "road_condition": 0.9
+            },
+            "snowy": {
+                "visibility": 0.6,
+                "road_condition": 0.7
+            }
+        },
+
+        "traffic_density": {
+            "low": 0.2,
+            "medium": 0.5,
+            "high": 0.8
+        },
+
+        "road_condition_factor": {
+            "dry": 1.0,
+            "wet": 0.8,
+            "icy": 0.5
+        }
+    }
+}
