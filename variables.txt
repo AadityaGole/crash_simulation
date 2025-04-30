@@ -23,3 +23,4 @@ environment related
 4. presence of pedestrians (dependent on road type)
 5. presence of animals (dependent on road type)
 6. presence of foreign objects on the road (dependent on road type)
+7. traffic density (dependent on road type)
