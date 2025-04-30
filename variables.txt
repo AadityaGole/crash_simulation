@@ -1,0 +1,25 @@
+human related 
+
+1. driving expertise (independent)
+2. reaction time (very small exponential relation to driving expertise)
+3. fatigue (independent)
+4. decision making (hyperbolic relation to fatigue and linear relation to driving expertise)
+5. consistency (linear relation to driving expertise)
+
+autonomous related
+
+0. time tested (negative linear relation to strictness)
+1. driving expertise (strictness soft locks it to a minimum value, but linear relation to time tested)
+2. reaction time (independent, standardized to 0.2 with very little variance)
+3. fatigue (always 0)
+4. decision making (linear relation to driving expertise, linear relation to time tested)
+5. consistency (linear relation to strictness)
+
+environment related
+
+1. weather (independent)
+2. road type (independent)
+3. road condition (dependent on weather as well as road type)
+4. presence of pedestrians (dependent on road type)
+5. presence of animals (dependent on road type)
+6. presence of foreign objects on the road (dependent on road type)

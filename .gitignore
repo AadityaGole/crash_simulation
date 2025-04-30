@@ -9,3 +9,6 @@ venv/
 
 correlation_heatmap.png
 simulation_results.csv
+
+controlled_crash_severity_histogram.png
+controlled_simulation_results.csv
