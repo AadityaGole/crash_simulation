@@ -55,6 +55,7 @@
     }, 
 
     "environment": {
+        
         "weather": {
             "clear": {
                 "visibility": 1.0,
