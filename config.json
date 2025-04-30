@@ -1,40 +1,56 @@
 {
-    "car": {
-        "human": {
-            "driving_expertise_mean": 0.5,
-            "driving_expertise_std": 0.2,
-            "driving_expertise_min": 0.0,
-            "driving_expertise_max": 1.0,
+"car_human":{
     
-            "reaction_time_mean": 0.5,
-            "reaction_time_multiplier": 0.5,
+        "driving_expertise_mean": 0.5,
+        "driving_expertise_std": 0.2,
+        "driving_expertise_min": 0.0,
+        "driving_expertise_max": 1.0,
+
+        "reaction_time_mean": 0.5,
+        "reaction_time_multiplier": 0.5,
+
+        "fatigue_mean": 0,
+        "fatigue_std": 0.5,
+        "fatigue_min": 0.0,
+        "fatigue_max": 1.0,
+
+        "decision_making_mean": 0.5,
+        "decision_making_std": 0.2,
+        "decision_making_min": 0.0,
+        "decision_making_max": 1.0,
+
+        "consistncy_mean": 0.5,
+        "consistncy_std": 0.2,
+        "consistncy_min": 0.0,
+        "consistncy_max": 1.0
+    },
     
-            "fatigue_mean": 0,
-            "fatigue_std": 0.5,
-            "fatigue_min": 0.0,
-            "fatigue_max": 1.0,
-    
-            "decision_making_mean": 0.5,
-            "decision_making_std": 0.2,
-            "decision_making_min": 0.0,
-            "decision_making_max": 1.0
-        },
-    
-        "autonomous": {
-            "driving_expertise_mean": 0.8,
-            "driving_expertise_std": 0.1,
-            "driving_expertise_min": 0.5,
-            "driving_expertise_max": 0.9,
-    
-            "reaction_time_mean": 0.2,
-    
-            "fatigue": 0,
-    
-            "decision_making_mean": 0.8,
-            "decision_making_std": 0.1,
-            "decision_making_min": 0.5,
-            "decision_making_max": 0.9
-        }
+    "car_autonomous": {
+
+        "time_tested": 0.5,
+        "time_tested_std": 0.2,
+        "time_tested_min": 0.0,
+        "time_tested_max": 1.0,
+
+        "driving_expertise_mean": 0.8,
+        "driving_expertise_std": 0.1,
+        "driving_expertise_min": 0.5,
+        "driving_expertise_max": 0.9,
+
+        "reaction_time_mean": 0.2,
+
+
+        "fatigue": 0,
+
+        "decision_making_mean": 0.8,
+        "decision_making_std": 0.1,
+        "decision_making_min": 0.5,
+        "decision_making_max": 0.9,
+
+        "consistncy_mean": 0.8,
+        "consistncy_std": 0.1,
+        "consistncy_min": 0.5,
+        "consistncy_max": 0.9
     
     }, 
 
@@ -68,6 +84,32 @@
             "dry": 1.0,
             "wet": 0.8,
             "icy": 0.5
+        },
+
+        "road_type": [
+            "highway",
+            "city",
+            "rural"
+        ],
+
+        "pedestrian_presence": {
+            "highway": 0.1,
+            "city": 0.8,
+            "rural": 0.4
+        },
+
+        "animal_presence": {
+            "highway": 0.05,
+            "city": 0.1,
+            "rural": 0.3
+        },
+        
+        "object_presence": {
+            "highway": 0.1,
+            "city": 0.5,
+            "rural": 0.2
         }
+
+
     }
 }
