@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from car_agent import Car
+from car import Car
 from env_agent import Environment
 
 # Set random seed for reproducibility
@@ -17,7 +17,7 @@ def run_simulations(num_runs=100):
 
     for _ in range(num_runs):
         env = Environment()
-        car = Car(autonomous=random.choice([True, False]))
+        car = Car()
         prob, severity = car.evaluate_crash_risk(env)
 
         results.append({
