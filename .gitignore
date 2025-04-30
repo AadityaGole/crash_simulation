@@ -2,5 +2,10 @@
 .vscode/
 __pycache__/
 
+env/
+.env/
+venv/
+.venv/
+
 correlation_heatmap.png
 simulation_results.csv
