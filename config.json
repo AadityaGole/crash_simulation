@@ -75,40 +75,25 @@
             }
         },
 
-        "traffic_density": {
-            "low": 0.2,
-            "medium": 0.5,
-            "high": 0.8
-        },
-
-        "road_condition_factor": {
-            "dry": 1.0,
-            "wet": 0.8,
-            "icy": 0.5
-        },
-
-        "road_type": [
-            "highway",
-            "city",
-            "rural"
-        ],
-
-        "pedestrian_presence": {
-            "highway": 0.1,
-            "city": 0.8,
-            "rural": 0.4
-        },
-
-        "animal_presence": {
-            "highway": 0.05,
-            "city": 0.1,
-            "rural": 0.3
-        },
-        
-        "object_presence": {
-            "highway": 0.1,
-            "city": 0.5,
-            "rural": 0.2
+        "road_type": {
+            "highway": {
+            "traffic_density": 0.2,
+            "pedestrian_presence": 0.1,
+            "animal_presence": 0.05,
+            "object_presence": 0.1
+            },
+            "city": {
+            "traffic_density": 0.8,
+            "pedestrian_presence": 0.8,
+            "animal_presence": 0.1,
+            "object_presence": 0.5
+            },
+            "rural": {
+            "traffic_density": 0.4,
+            "pedestrian_presence": 0.4,
+            "animal_presence": 0.3,
+            "object_presence": 0.2
+            }
         }
 
 
