@@ -34,7 +34,7 @@ class Environment:
         print("Presence of Animals:", self.presence_of_animals)
         print("Presence of Foreign Objects:", self.presence_of_foreign_objects)
 
-if __name__ == "__main__":
-    # Create an instance of the Environment class
-    env = Environment(weather="rainy", road_type="city")
+# if __name__ == "__main__":
+#     # Create an instance of the Environment class
+#     env = Environment(weather="rainy", road_type="city")
 
