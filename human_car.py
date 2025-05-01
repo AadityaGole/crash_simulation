@@ -11,7 +11,7 @@ np.random.seed(42)
 # Define the Car class
 class HumanCar(Car):
     def __init__(self, config, strictness):
-        self.time_trained = random.gauss(0.5, 0.1)
+        self.time_trained = min(max(random.gauss(0.5, 0.1), 0), 1)
 
         self.driving_expertise = min(max(0.5 * math.tanh(2 * self.time_trained), 0.8 * strictness) + random.gauss(0, 0.04), 1)
         self.fatigue = min(max(random.gauss(0.3, 0.1), 0), 1)
